@@ -225,7 +225,7 @@ export default function RecommendPage() {
                   <span className="font-semibold text-slate-700">₩9,900 /월</span>
                 </div>
                 <Link
-                  href="/"
+                  href="/purchase?type=subscription"
                   className="inline-flex w-full items-center justify-center rounded-full border border-slate-200 px-4 py-2 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-100"
                 >
                   구매하기
@@ -242,7 +242,7 @@ export default function RecommendPage() {
                   <span className="font-semibold text-slate-700">₩13,900</span>
                 </div>
                 <Link
-                  href="/"
+                  href="/purchase?type=single"
                   className="inline-flex w-full items-center justify-center rounded-full border border-slate-200 px-4 py-2 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-100"
                 >
                   구매하기
